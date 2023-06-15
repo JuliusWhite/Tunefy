@@ -10,7 +10,7 @@
 
 
     <ImageView
-        android:id="@+id/tunefyIconImageView"
+        android:id="@+id/tunefyIcon"
         android:layout_width="56dp"
         android:layout_height="56dp"
         app:layout_constraintBottom_toBottomOf="parent"
