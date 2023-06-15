@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">Tunefy</string>
+    <string name="gnr_appetite">Appetite For Detruction</string>
+    <string name="whos_next">Who\'s Next?</string>
+    <string name="plastic_beach">Plastic Beach</string>
+    <string name="blur">Blur</string>
+    <string name="song_title">The Power of Equality</string>
+    <string name="song_artist">Red Hot Chili Peppers</string>
+
+
 </resources>
