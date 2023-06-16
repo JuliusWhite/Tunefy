@@ -22,16 +22,43 @@
         <ViewFlipper
             android:layout_width="match_parent"
             android:layout_height="200dp"
-            android:autoStart="false"
+            android:autoStart="true"
             android:flipInterval="2000"
             android:inAnimation="@android:anim/slide_in_left"
             android:outAnimation="@android:anim/slide_out_right">
 
             <ImageView
-                android:id="@+id/exploreImage"
+                android:id="@+id/exploreImage1"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 app:srcCompat="@drawable/velvet_revolver" />
+
+            <ImageView
+                android:id="@+id/exploreImage2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/white_buffalo" />
+
+
+            <ImageView
+                android:id="@+id/exploreImage3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/jailbreak" />
+
+
+            <ImageView
+                android:id="@+id/exploreImage4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/plastic_beach" />
+
+            <ImageView
+                android:id="@+id/exploreImage5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/foo_fighters" />
+
         </ViewFlipper>
 
         <TextView
@@ -45,16 +72,43 @@
         <ViewFlipper
             android:layout_width="match_parent"
             android:layout_height="200dp"
-            android:autoStart="false"
-            android:flipInterval="2000"
+            android:autoStart="true"
+            android:flipInterval="2750"
             android:inAnimation="@android:anim/slide_in_left"
             android:outAnimation="@android:anim/slide_out_right">
 
             <ImageView
-                android:id="@+id/forYouImage"
+                android:id="@+id/forYouImage1"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                app:srcCompat="@drawable/blood_sugar_sex_magik" />
+                app:srcCompat="@drawable/slash_world" />
+
+            <ImageView
+                android:id="@+id/forYouImage2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/arcoss_the_spiderverse" />
+
+
+            <ImageView
+                android:id="@+id/forYouImage3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/unlimited_love" />
+
+
+            <ImageView
+                android:id="@+id/forYouImage4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/appetite_for_destruction" />
+
+            <ImageView
+                android:id="@+id/forYouImage5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/let_there_be_rock" />
+
         </ViewFlipper>
 
         <TextView
@@ -74,14 +128,14 @@
             android:paddingTop="10dp">
 
             <ImageView
-                android:id="@+id/forYouImage1"
+                android:id="@+id/yourMusicImage1"
                 android:layout_width="0dp"
                 android:layout_height="100dp"
                 android:layout_weight="1"
-                app:srcCompat="@drawable/appetite_for_destruction" />
+                app:srcCompat="@drawable/blood_sugar_sex_magik" />
 
             <ImageView
-                android:id="@+id/forYouImage2"
+                android:id="@+id/yourMusicImage2"
                 android:layout_width="0dp"
                 android:layout_height="100dp"
                 android:layout_weight="1"
@@ -95,16 +149,16 @@
             android:orientation="horizontal">
 
             <TextView
-                android:id="@+id/forYouText1"
+                android:id="@+id/yourMusicText1"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:padding="5dp"
-                android:text="@string/gnr_appetite"
+                android:text="@string/blood_sugar"
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/forYouText2"
+                android:id="@+id/yourMusicText2"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -121,18 +175,18 @@
             android:paddingTop="10dp">
 
             <ImageView
-                android:id="@+id/forYouImage3"
-                android:layout_width="0dp"
-                android:layout_height="100dp"
-                android:layout_weight="1"
-                app:srcCompat="@drawable/plastic_beach" />
-
-            <ImageView
-                android:id="@+id/forYouImage4"
+                android:id="@+id/yourMusicImage3"
                 android:layout_width="0dp"
                 android:layout_height="100dp"
                 android:layout_weight="1"
                 app:srcCompat="@drawable/blur" />
+
+            <ImageView
+                android:id="@+id/yourMusicImage4"
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/into_the_spiderverse" />
 
         </LinearLayout>
 
@@ -142,21 +196,21 @@
             android:orientation="horizontal">
 
             <TextView
-                android:id="@+id/forYouText3"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:padding="5dp"
-                android:text="@string/plastic_beach"
-                android:textStyle="bold" />
-
-            <TextView
-                android:id="@+id/forYouText4"
+                android:id="@+id/yourMusicText3"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:padding="5dp"
                 android:text="@string/blur"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/yourMusicText4"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="5dp"
+                android:text="@string/into_the_spiderverse"
                 android:textStyle="bold" />
 
         </LinearLayout>

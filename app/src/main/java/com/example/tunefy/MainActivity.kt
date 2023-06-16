@@ -10,10 +10,10 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val forYouImage1: ImageView = findViewById(R.id.forYouImage1)
-        val forYouImage2: ImageView = findViewById(R.id.forYouImage2)
-        val forYouImage3: ImageView = findViewById(R.id.forYouImage3)
-        val forYouImage4: ImageView = findViewById(R.id.forYouImage4)
+        val forYouImage1: ImageView = findViewById(R.id.yourMusicImage1)
+        val forYouImage2: ImageView = findViewById(R.id.yourMusicImage2)
+        val forYouImage3: ImageView = findViewById(R.id.yourMusicImage3)
+        val forYouImage4: ImageView = findViewById(R.id.yourMusicImage4)
 
         val intent = Intent(this, MusicPlayerActivity::class.java)
 
