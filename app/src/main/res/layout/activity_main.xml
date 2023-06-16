@@ -53,6 +53,12 @@
                 android:layout_height="match_parent"
                 app:srcCompat="@drawable/plastic_beach" />
 
+            <ImageView
+                android:id="@+id/exploreImage5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/foo_fighters" />
+
         </ViewFlipper>
 
         <TextView
@@ -75,7 +81,7 @@
                 android:id="@+id/forYouImage1"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                app:srcCompat="@drawable/blood_sugar_sex_magik" />
+                app:srcCompat="@drawable/slash_world" />
 
             <ImageView
                 android:id="@+id/forYouImage2"
@@ -95,7 +101,7 @@
                 android:id="@+id/forYouImage4"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                app:srcCompat="@drawable/slash_world" />
+                app:srcCompat="@drawable/appetite_for_destruction" />
 
             <ImageView
                 android:id="@+id/forYouImage5"
@@ -126,7 +132,7 @@
                 android:layout_width="0dp"
                 android:layout_height="100dp"
                 android:layout_weight="1"
-                app:srcCompat="@drawable/appetite_for_destruction" />
+                app:srcCompat="@drawable/blood_sugar_sex_magik" />
 
             <ImageView
                 android:id="@+id/yourMusicImage2"
@@ -148,7 +154,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:padding="5dp"
-                android:text="@string/gnr_appetite"
+                android:text="@string/blood_sugar"
                 android:textStyle="bold" />
 
             <TextView
@@ -204,7 +210,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:padding="5dp"
-                android:text="@string/into_the_spiderversw"
+                android:text="@string/into_the_spiderverse"
                 android:textStyle="bold" />
 
         </LinearLayout>
