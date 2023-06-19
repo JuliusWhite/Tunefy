@@ -33,7 +33,6 @@ When the music recommendation algorithm starts its developement there will be ne
 
 ## Some app screenshots
 
-![WhatsApp Image 2023-06-19 at 12 28 35](https://github.com/JuliusWhite/Tunefy/assets/91659331/cbd095fb-5e35-4d03-8087-dde7de742a24)
+![WhatsApp Image 2023-06-19 at 12 38 55](https://github.com/JuliusWhite/Tunefy/assets/91659331/c628eba1-e5a6-4476-b932-f5f9ae7a766a)
 
-![WhatsApp Image 2023-06-19 at 12 28 36](https://github.com/JuliusWhite/Tunefy/assets/91659331/7a6936cd-aad7-4498-92da-d695c0fb22a7)
-
+![WhatsApp Image 2023-06-19 at 12 38 56](https://github.com/JuliusWhite/Tunefy/assets/91659331/91160a48-da59-45b7-9674-eff64027485c)
